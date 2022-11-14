@@ -27,6 +27,8 @@ body {
 	/* height: 100vh; */
 	display: flex;
 	flex-direction: column;
+	-webkit-background-size: cover;
+	background-repeat: no-repeat;
 }
 .container {
 	max-width: 1425px;
