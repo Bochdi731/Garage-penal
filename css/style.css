@@ -18,7 +18,7 @@ body {
 	/* min-height: 100%; */
 }
 .header {
-	background-color: #E2EED2;
+	background-color: rgb(226, 238, 210);
 	background-size: auto auto;
 	mix-blend-mode: overlay;
 	opacity: 1;
