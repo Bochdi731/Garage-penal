@@ -79,7 +79,7 @@ body {
 	margin-bottom: 65px;
 }
 .header__nav-list {
-	background: #7A78F5;
+	background-color: rgba(122, 120, 245, 1);
 	width: auto;
 	height: auto;
 	border-radius: 50px;
