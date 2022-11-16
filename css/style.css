@@ -336,8 +336,7 @@ overflow: hidden;
 }
 .slider .slick-dots {
 	display: flex;
-	align-items: stretch;;
-	justify-content: center;
+	align-items: stretch;
 	height: 50px;
 }
 .slider .slick-dots li {
