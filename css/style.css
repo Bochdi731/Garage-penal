@@ -19,8 +19,6 @@ body {
 }
 .header {
 	background-color: rgba(226, 238, 210, 1);
-	background-size: auto auto;
-	mix-blend-mode: overlay;
 	opacity: 1;
 	/* transform: rotate(0.3deg); */
 	font-weight: 600;
