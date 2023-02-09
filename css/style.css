@@ -18,15 +18,15 @@ body {
 	/* min-height: 100%; */
 }
 .header {
-	background-color: rgba(226, 238, 210, 1);
+	background-color: rgba(226, 238, 210, 224);
+	background-size: auto auto;
+	mix-blend-mode: overlay;
 	opacity: 1;
 	/* transform: rotate(0.3deg); */
 	font-weight: 600;
 	/* height: 100vh; */
 	display: flex;
 	flex-direction: column;
-	-webkit-background-size: cover;
-	background-repeat: no-repeat;
 }
 .container {
 	max-width: 1425px;
@@ -79,7 +79,7 @@ body {
 	margin-bottom: 65px;
 }
 .header__nav-list {
-	background-color: rgba(122, 120, 245, 1);
+	background: rgba(122, 120, 245, 255);
 	width: auto;
 	height: auto;
 	border-radius: 50px;
@@ -283,9 +283,13 @@ overflow: hidden;
 	font-size: 30px;
 }
 .slider {
-	/* flex-direction: column; */
+	flex-direction: row;
 	position: relative;
 	padding: 0px 20px;
+}
+.images__slid{
+	width: 700px;
+	height: 700px;
 }
 .slick-dotted .slick-slider {
   margin-bottom: 0px;
@@ -486,6 +490,41 @@ line-height: 48px;
   /* padding: 0px 600px; */
 	/* display: table-cell; */
 }
+.container {
+}
+.about__price {
+}
+h2{
+	margin-top: 100px;
+	margin-bottom: 100px;
+	color: #000000;
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 50px;
+}
+.decription__price {
+	display: grid;
+	gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  margin: 20px;
+}
+.about__price-list {
+	background-color: #519BE9;
+	padding: 10px 0;
+	border-radius: 35px;
+}
+.about__price-list ul{
+ 	color: #FFFFFF;
+	font-weight: 400;
+  font-size: 25px;
+  line-height: 35px;
+  text-align: center;
+}
+.about__price-list h3{
+	margin-bottom: 10px;
+  font-size: 25px;
+  line-height: 30px;
+}
 .price__one {
   /* height: 1172px;
   display: block;
@@ -513,7 +552,7 @@ line-height: 48px;
 
 .superior {
 	mix-blend-mode: multiply;
-	margin: 0px auto;
+	margin: 100px auto;
   display: block;
 	position: relative;
 }
@@ -523,7 +562,7 @@ line-height: 48px;
 /* =============================================================================== */
 /* =============================================================================== */
 .heading__section {
-	padding: 215px 0px;
+	padding: 100px 0px;
 	font-family: 'Playfair Display SC';
 	font-style: normal;
 	font-weight: 700;
